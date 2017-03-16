@@ -1,0 +1,50 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:20px;
+}
+
+header{
+	border-bottom: dotted 2px #333;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+header h1{
+	text-transform: uppercase;
+	font-weight: 300;	
+	
+}
+
+
+ul{
+	padding-left: 0;
+}
+
+li{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+	list-style: none;
+	padding:20px 0;
+}
+
+li img{
+	float:left;
+	margin-top: -20px;
+}
+
+input{
+	padding:5px;
+	font-size:1em;
+
+}
+
+button{
+	font-size: 1em;
+	padding:5px;
+}

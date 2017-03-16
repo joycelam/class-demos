@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Party Guest List</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+    <header><h1>My Guest List</h1></header>
+
+    <ul id="content">
+	   <!-- where my content goes --> 	    
+    </ul>    
+    
+   
+    <form name="addForm" method="post" id="add-form">
+        <input id="title" type="text" placeholder="Title" size="30">
+        <input id="name" type="text"  placeholder="Name" size="30">
+        <input id="guests" type="text" placeholder="# of Guests" size="30">
+        <input id="image" type="text" placeholder="url of image" size="30">
+        <button type="submit" class="add-person">Add</button>
+     </form>
+          
+    
+    <script src="js/jquery.js"></script>
+     <!-- Firebase -->
+		 <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

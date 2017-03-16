@@ -1,0 +1,37 @@
+ *{
+	 margin:0 auto;
+	 padding:0;
+ }
+ 
+ body{
+	 font-family: 'helvetica', san-serif;
+ }
+ 
+ a.button, button{ 
+	 display: block;
+	 width: 100%;
+	 background: #eee;
+	 text-align: center;
+	 color: #000;
+	 text-decoration: none;
+	 padding:25px 0;
+	 position: fixed;
+	 z-index: 100;
+	 bottom: 0;
+ }
+ 
+img{
+	width:100%; 
+	height:auto
+}
+
+.draggable{
+	display: block;
+	float:left;
+	width: 100px;
+	height:100px;
+	margin-left:20px;
+	
+}
+ 
+ 
