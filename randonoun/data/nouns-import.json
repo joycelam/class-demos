@@ -1,0 +1,28 @@
+{
+  "nouns" : {
+    "0" : {
+      "singular" : "tree",
+      "plural" : "trees"
+    },
+    "1" : {
+      "singular" : "cat",
+      "plural" : "cats"
+    },
+    "2" : {
+      "singular" : "dog",
+      "plural" : "dogs"
+    },
+    "3" : {
+      "singular" : "fox",
+      "plural" : "foxes"
+    },
+    "4" : {
+      "singular" : "house",
+      "plural" : "houses"
+    },
+    "5" : {
+      "singular" : "plane",
+      "plural" : "planes"
+    }
+  }
+}
