@@ -34,6 +34,7 @@ function getNoun(branchRef){
 		console.log('choseNoun:' + choseNoun);
 		
 		addtoHaiku(choseNoun);
+		printHaiku();
 	});
 }
 
@@ -51,7 +52,6 @@ function chooseNoun(nounsArray){
 //add randomized word to the haiku string
 function addtoHaiku(word){
 	haiku += word + ' ';
-	printHaiku();
 }
 
 //print haiku on page
